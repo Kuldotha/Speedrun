@@ -2,6 +2,8 @@
 
 Upgrade a squad of space vikings strategically in a turn-based multiplayer duel, tinkering your way to Valhalla's Forge!
 
+![image url](https://user-images.githubusercontent.com/3500888/257075781-1b1edc59-bf4d-4857-803d-78a5a091d49d.png)
+
 In this game, you command a small squad of Space Vikings in their ships fo defeat your opponent.
 
 ## Starting the game
@@ -20,3 +22,5 @@ The second phase is where ships can do things other then move around. You can fi
 
 ### Game End
 The game ends when all ships of a team are destroyed.
+
+![image url](https://user-images.githubusercontent.com/3500888/257075783-1b7261bb-5ecf-45d8-ad0e-eb558f09823a.png)
