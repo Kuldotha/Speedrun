@@ -5,7 +5,7 @@ Upgrade a squad of space vikings strategically in a turn-based multiplayer duel,
 In this game, you command a small squad of Space Vikings in their ships fo defeat your opponent.
 
 ## Starting the game
-To start, go to the website https://valhallas-forge.interstellar-games.com/
+To start, go to the website https://valhallas-forge.interstellar-games.com/. Alternatively, a Windows build can be downloaded form this repo under the folder Builds.
 
 Once there, you can join the Queue. This is a matchmaking queue, and once another player joins the queue, you are matched together to play the game. Each player starts with 3 ships.
 
