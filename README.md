@@ -24,3 +24,14 @@ The second phase is where ships can do things other then move around. You can fi
 The game ends when all ships of a team are destroyed.
 
 ![image url](https://user-images.githubusercontent.com/3500888/257075783-1b7261bb-5ecf-45d8-ad0e-eb558f09823a.png)
+
+## Troubleshooting
+
+Since this is a PvP game, make sure you have a buddy ready and try to connect with eachother.
+
+There is an issue with the socket connection, it has a tendency to close without reconnectiong. This is by far the most occuring issue. The simplest solution is just to refresh the page or restart the game. You will continue exactly where you left off.
+
+## Can't join the queue
+
+This might be because you have no solana on the account. There is a button to airdrop some sol. This might not always work. In the Lapord DAO discord there is a command to transfer sol to an address. The command is /drop [address] [amount] and you can get the address by using the Copy button next to it in the UI.
+If that also doesn't work, there most likely is an issue with the connection. See how to fix that above.
