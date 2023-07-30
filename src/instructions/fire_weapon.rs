@@ -147,7 +147,11 @@ pub fn process(
         session_data.winning_player = session_data.player1;
     }
     // This means all ships have activated
-    else if session_data.ships.iter().all(|s| s.activated) {
+    else if session_data
+        .ships
+        .iter()
+        .all(|s| s.health <= 0.0 || s.activated)
+    {
         session_data.turn = session_data.turn + 1;
         session_data.active_player = session_data.player1;
         session_data.phase = 0;
@@ -166,7 +170,7 @@ pub fn process(
         if session_data
             .ships
             .iter()
-            .any(|s| s.owner != session_data.active_player && !s.activated)
+            .any(|s| s.owner != session_data.active_player && s.health > 0.0 && !s.activated)
         {
             if session_data.active_player == session_data.player1 {
                 session_data.active_player = session_data.player2;

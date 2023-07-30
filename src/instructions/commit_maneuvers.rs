@@ -110,6 +110,10 @@ pub fn process(
                 ship.y_position = centre_y + final_arm_y;
                 ship.rotation = ship.rotation + arc;
             }
+
+            if ship.x_position.abs() > 42.0 || ship.y_position.abs() > 73.0 {
+                ship.health = 0.0;
+            }
         }
 
         session_data.player1_ready = false;
