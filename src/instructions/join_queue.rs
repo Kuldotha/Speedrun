@@ -76,8 +76,8 @@ pub fn process(program_id: &Pubkey, accounts: &[AccountInfo], game_id: u64) -> P
             Ship {
                 id: 0,
                 owner: player1,
-                x_position: 20.0,
-                y_position: -40.0,
+                x_position: 0.0,
+                y_position: -20.0,
                 rotation: 90.0,
                 health: health,
                 min_speed: min_speed,
@@ -100,7 +100,7 @@ pub fn process(program_id: &Pubkey, accounts: &[AccountInfo], game_id: u64) -> P
                 id: 1,
                 owner: player1,
                 x_position: 0.0,
-                y_position: -40.0,
+                y_position: -20.0,
                 rotation: 90.0,
                 health: health,
                 min_speed: min_speed,
@@ -145,7 +145,7 @@ pub fn process(program_id: &Pubkey, accounts: &[AccountInfo], game_id: u64) -> P
             Ship {
                 id: 3,
                 owner: player2,
-                x_position: 20.0,
+                x_position: 0.0,
                 y_position: 40.0,
                 rotation: -90.0,
                 health: health,
@@ -168,7 +168,7 @@ pub fn process(program_id: &Pubkey, accounts: &[AccountInfo], game_id: u64) -> P
             Ship {
                 id: 4,
                 owner: player2,
-                x_position: 0.0,
+                x_position: 20.0,
                 y_position: 40.0,
                 rotation: -90.0,
                 health: health,
@@ -191,7 +191,7 @@ pub fn process(program_id: &Pubkey, accounts: &[AccountInfo], game_id: u64) -> P
             Ship {
                 id: 5,
                 owner: player2,
-                x_position: -20.0,
+                x_position: 40.0,
                 y_position: 40.0,
                 rotation: -90.0,
                 health: health,
